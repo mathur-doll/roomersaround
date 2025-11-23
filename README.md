@@ -133,6 +133,43 @@ python3 generate_fake_data.py
 
 See [FAKE_DATA_README.md](FAKE_DATA_README.md) for detailed import instructions and examples.
 
+## 🔧 Backend Setup
+
+Complete backend API with Express.js, database models, and RESTful endpoints:
+
+### 🚀 Quick Start
+```bash
+# 1. Copy backend files to your project
+cp -r backend-setup/* your-backend-folder/
+
+# 2. Install dependencies
+cd your-backend-folder && npm install
+
+# 3. Import data
+npm run seed
+
+# 4. Start server
+npm start
+```
+
+### 📚 API Endpoints
+- **Users API** - `/api/users` - Search users by nationality, profession, rating
+- **Properties API** - `/api/properties` - Search properties by location, price, type, amenities
+- **Events API** - `/api/events` - Filter events by type, date, official status
+
+### 📖 Documentation
+- **[backend-setup/QUICK_START.md](backend-setup/QUICK_START.md)** - Get started in 5 minutes
+- **[backend-setup/SETUP_GUIDE.md](backend-setup/SETUP_GUIDE.md)** - Complete setup guide with frontend integration
+- **[backend-setup/README.md](backend-setup/README.md)** - Backend overview and API documentation
+
+The backend includes:
+- Complete Express.js server with CORS
+- MongoDB & PostgreSQL support
+- Database models for Users, Properties, Events
+- Advanced search, filtering, and pagination
+- Ready-to-use seed script
+- Frontend integration examples
+
 ## 📄 Files Included
 
 ### Presentation Materials
@@ -152,6 +189,17 @@ See [FAKE_DATA_README.md](FAKE_DATA_README.md) for detailed import instructions 
 - `fake_data_inserts.sql` - SQL import file
 - `generate_fake_data.py` - Data generator script
 - `FAKE_DATA_README.md` - Import guide
+
+### Backend Setup
+- `backend-setup/` - Complete backend folder
+  - `server.js` - Express server
+  - `seedDatabase.js` - Data import script
+  - `package.json` - Dependencies
+  - `models/` - User, Property, Event models
+  - `routes/` - API endpoints
+  - `QUICK_START.md` - 5-minute setup
+  - `SETUP_GUIDE.md` - Complete documentation
+  - `README.md` - Backend overview
 
 ---
 
