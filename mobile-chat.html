@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Chat - RoomersAround</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0a1628 0%, #1a2c47 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            padding-bottom: 80px;
+        }
+
+        .header {
+            background: rgba(10, 22, 40, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 600;
+            color: #00d4ff;
+        }
+
+        .new-chat-button {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #00d4ff 0%, #00a8cc 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .search-bar {
+            width: 100%;
+            padding: 12px 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: 25px;
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        .search-bar::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .tabs {
+            display: flex;
+            padding: 15px 20px 0;
+            gap: 5px;
+            border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+        }
+
+        .tab {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+            border-bottom: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .tab.active {
+            color: #00d4ff;
+            border-bottom-color: #00d4ff;
+        }
+
+        .chats-container {
+            padding: 0;
+        }
+
+        .chat-item {
+            display: flex;
+            gap: 12px;
+            padding: 15px 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            transition: background 0.2s;
+            cursor: pointer;
+        }
+
+        .chat-item:active {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .avatar-container {
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #00d4ff 0%, #00a8cc 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            border: 2px solid rgba(0, 212, 255, 0.3);
+        }
+
+        .avatar.group {
+            background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+            border-color: rgba(255, 107, 157, 0.3);
+        }
+
+        .online-indicator {
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            width: 12px;
+            height: 12px;
+            background: #4cd964;
+            border: 2px solid #0a1628;
+            border-radius: 50%;
+        }
+
+        .chat-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .chat-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+
+        .chat-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .chat-time {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .chat-preview {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .chat-message {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            flex: 1;
+        }
+
+        .chat-badge {
+            background: #00d4ff;
+            color: #0a1628;
+            border-radius: 12px;
+            padding: 2px 8px;
+            font-size: 11px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .location-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            font-size: 12px;
+            color: #00d4ff;
+            margin-top: 4px;
+        }
+
+        .community-section {
+            padding: 20px;
+        }
+
+        .section-header {
+            font-size: 13px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.5);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .community-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 12px;
+        }
+
+        .community-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .community-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .community-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #00d4ff 0%, #00a8cc 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .join-button {
+            padding: 6px 16px;
+            background: linear-gradient(135deg, #00d4ff 0%, #00a8cc 100%);
+            border: none;
+            border-radius: 15px;
+            color: #0a1628;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .joined-button {
+            background: rgba(255, 255, 255, 0.1);
+            color: #00d4ff;
+        }
+
+        .community-stats {
+            display: flex;
+            gap: 15px;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 8px;
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 22, 40, 0.98);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid rgba(0, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-around;
+            padding: 12px 0;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 11px;
+            transition: color 0.3s;
+            position: relative;
+        }
+
+        .nav-item.active {
+            color: #00d4ff;
+        }
+
+        .nav-icon {
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .notification-badge {
+            position: absolute;
+            top: -2px;
+            right: -8px;
+            background: #ff6b9d;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 2px 6px;
+            font-size: 10px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div class="logo">Community</div>
+            <div class="new-chat-button">✏️</div>
+        </div>
+        <input type="text" class="search-bar" placeholder="Search messages...">
+    </div>
+
+    <div class="tabs">
+        <div class="tab active">Chats</div>
+        <div class="tab">Communities</div>
+        <div class="tab">Groups</div>
+    </div>
+
+    <div class="chats-container">
+        <div class="chat-item">
+            <div class="avatar-container">
+                <div class="avatar group">🌍</div>
+            </div>
+            <div class="chat-content">
+                <div class="chat-header">
+                    <div class="chat-name">Rome Hub Community</div>
+                    <div class="chat-time">12:45</div>
+                </div>
+                <div class="chat-preview">
+                    <div class="chat-message">Maria: Welcome everyone to tonight's mixer! 🎉</div>
+                    <div class="chat-badge">5</div>
+                </div>
+                <div class="location-tag">📍 Rome, Italy</div>
+            </div>
+        </div>
+
+        <div class="chat-item">
+            <div class="avatar-container">
+                <div class="avatar">👤</div>
+                <div class="online-indicator"></div>
+            </div>
+            <div class="chat-content">
+                <div class="chat-header">
+                    <div class="chat-name">Alex Johnson</div>
+                    <div class="chat-time">11:23</div>
+                </div>
+                <div class="chat-preview">
+                    <div class="chat-message">Hey! Are you going to the coding workshop?</div>
+                </div>
+                <div class="location-tag">📍 Tokyo, Japan</div>
+            </div>
+        </div>
+
+        <div class="chat-item">
+            <div class="avatar-container">
+                <div class="avatar group">💼</div>
+            </div>
+            <div class="chat-content">
+                <div class="chat-header">
+                    <div class="chat-name">Remote Workers</div>
+                    <div class="chat-time">Yesterday</div>
+                </div>
+                <div class="chat-preview">
+                    <div class="chat-message">Tips for finding good coworking spaces?</div>
+                    <div class="chat-badge">12</div>
+                </div>
+                <div class="location-tag">📍 Global</div>
+            </div>
+        </div>
+
+        <div class="chat-item">
+            <div class="avatar-container">
+                <div class="avatar">👤</div>
+                <div class="online-indicator"></div>
+            </div>
+            <div class="chat-content">
+                <div class="chat-header">
+                    <div class="chat-name">Sofia Martinez</div>
+                    <div class="chat-time">Yesterday</div>
+                </div>
+                <div class="chat-preview">
+                    <div class="chat-message">Thanks for the apartment recommendation!</div>
+                </div>
+                <div class="location-tag">📍 Moscow, Russia</div>
+            </div>
+        </div>
+
+        <div class="chat-item">
+            <div class="avatar-container">
+                <div class="avatar group">🎨</div>
+            </div>
+            <div class="chat-content">
+                <div class="chat-header">
+                    <div class="chat-name">Creative Nomads</div>
+                    <div class="chat-time">2 days ago</div>
+                </div>
+                <div class="chat-preview">
+                    <div class="chat-message">New photography meetup this weekend!</div>
+                    <div class="chat-badge">3</div>
+                </div>
+                <div class="location-tag">📍 Sydney, Australia</div>
+            </div>
+        </div>
+
+        <div class="community-section">
+            <div class="section-header">Discover Communities</div>
+
+            <div class="community-card">
+                <div class="community-header">
+                    <div class="community-name">
+                        <div class="community-icon">🌏</div>
+                        <span>Asia Explorers</span>
+                    </div>
+                    <button class="join-button">Join</button>
+                </div>
+                <div class="community-stats">
+                    <div class="stat">👥 245 members</div>
+                    <div class="stat">💬 Active</div>
+                    <div class="stat">📍 Asia</div>
+                </div>
+            </div>
+
+            <div class="community-card">
+                <div class="community-header">
+                    <div class="community-name">
+                        <div class="community-icon" style="background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);">🍕</div>
+                        <span>Italian Food Lovers</span>
+                    </div>
+                    <button class="join-button joined-button">Joined</button>
+                </div>
+                <div class="community-stats">
+                    <div class="stat">👥 892 members</div>
+                    <div class="stat">💬 Very Active</div>
+                    <div class="stat">📍 Global</div>
+                </div>
+            </div>
+
+            <div class="community-card">
+                <div class="community-header">
+                    <div class="community-name">
+                        <div class="community-icon" style="background: linear-gradient(135deg, #4cd964 0%, #2ecc71 100%);">💻</div>
+                        <span>Tech & Startups</span>
+                    </div>
+                    <button class="join-button">Join</button>
+                </div>
+                <div class="community-stats">
+                    <div class="stat">👥 1.2k members</div>
+                    <div class="stat">💬 Very Active</div>
+                    <div class="stat">📍 Global</div>
+                </div>
+            </div>
+
+            <div class="community-card">
+                <div class="community-header">
+                    <div class="community-name">
+                        <div class="community-icon" style="background: linear-gradient(135deg, #ff9500 0%, #ff6b00 100%);">🏔️</div>
+                        <span>Adventure Seekers</span>
+                    </div>
+                    <button class="join-button joined-button">Joined</button>
+                </div>
+                <div class="community-stats">
+                    <div class="stat">👥 567 members</div>
+                    <div class="stat">💬 Active</div>
+                    <div class="stat">📍 Global</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-nav">
+        <div class="nav-item">
+            <div class="nav-icon">🏠</div>
+            <div>Properties</div>
+        </div>
+        <div class="nav-item">
+            <div class="nav-icon">🌍</div>
+            <div>Globe</div>
+        </div>
+        <div class="nav-item">
+            <div class="nav-icon">📅</div>
+            <div>Events</div>
+        </div>
+        <div class="nav-item active">
+            <div class="nav-icon">💬</div>
+            <div>Chat</div>
+            <div class="notification-badge">5</div>
+        </div>
+        <div class="nav-item">
+            <div class="nav-icon">👤</div>
+            <div>Profile</div>
+        </div>
+    </div>
+</body>
+</html>

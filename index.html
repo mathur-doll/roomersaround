@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoomersAround Mobile App Mockups</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0a1628 0%, #1a2c47 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 700;
+            color: #00d4ff;
+            margin-bottom: 10px;
+            text-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.9);
+            margin-top: 30px;
+            font-weight: 600;
+        }
+
+        .description {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.6);
+            max-width: 800px;
+            margin: 15px auto 0;
+            line-height: 1.6;
+        }
+
+        .mockups-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .mockup-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mockup-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #00d4ff, #00a8cc);
+            transform: scaleX(0);
+            transition: transform 0.3s;
+        }
+
+        .mockup-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0, 255, 255, 0.5);
+            box-shadow: 0 10px 40px rgba(0, 212, 255, 0.3);
+        }
+
+        .mockup-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .mockup-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.5));
+        }
+
+        .mockup-title {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        .mockup-description {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .view-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #00d4ff 0%, #00a8cc 100%);
+            color: #0a1628;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .view-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(0, 212, 255, 0.5);
+        }
+
+        .features-section {
+            margin-top: 60px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(0, 255, 255, 0.1);
+            border-radius: 20px;
+        }
+
+        .features-title {
+            font-size: 28px;
+            font-weight: 600;
+            color: #00d4ff;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .feature-item {
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+        }
+
+        .feature-icon {
+            font-size: 28px;
+            flex-shrink: 0;
+        }
+
+        .feature-content h3 {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 6px;
+        }
+
+        .feature-content p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+            line-height: 1.5;
+        }
+
+        .stats-section {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+
+        .stat-box {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 48px;
+            font-weight: 700;
+            color: #00d4ff;
+            text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 14px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 36px;
+            }
+
+            .subtitle {
+                font-size: 20px;
+            }
+
+            .mockups-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-section {
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">RoomersAround</div>
+            <div class="tagline">Connecting communities worldwide</div>
+            <div class="subtitle">Mobile App Mockups Demo</div>
+            <div class="description">
+                Explore our mobile application design showcasing a global network of properties,
+                community events, interactive globe visualization, and real-time chat features.
+                Built for digital nomads, remote workers, and international communities.
+            </div>
+        </div>
+
+        <div class="mockups-grid">
+            <div class="mockup-card" onclick="location.href='mobile-properties.html'">
+                <div class="mockup-icon">🏠</div>
+                <div class="mockup-title">Properties</div>
+                <div class="mockup-description">
+                    Browse available and occupied properties across the globe.
+                    Filter by location, view detailed listings, and connect with your next home.
+                </div>
+                <a href="mobile-properties.html" class="view-button">View Demo</a>
+            </div>
+
+            <div class="mockup-card" onclick="location.href='mobile-globe.html'">
+                <div class="mockup-icon">🌍</div>
+                <div class="mockup-title">Globe Network</div>
+                <div class="mockup-description">
+                    Interactive 3D globe visualization showing the global RoomersAround network.
+                    Explore hubs, hotspots, and connections worldwide.
+                </div>
+                <a href="mobile-globe.html" class="view-button">View Demo</a>
+            </div>
+
+            <div class="mockup-card" onclick="location.href='mobile-events.html'">
+                <div class="mockup-icon">📅</div>
+                <div class="mockup-title">Events</div>
+                <div class="mockup-description">
+                    Discover community events, meetups, and workshops.
+                    Connect with members and join activities in your city or online.
+                </div>
+                <a href="mobile-events.html" class="view-button">View Demo</a>
+            </div>
+
+            <div class="mockup-card" onclick="location.href='mobile-chat.html'">
+                <div class="mockup-icon">💬</div>
+                <div class="mockup-title">Community Chat</div>
+                <div class="mockup-description">
+                    Real-time messaging with community members.
+                    Join groups, discover communities, and stay connected globally.
+                </div>
+                <a href="mobile-chat.html" class="view-button">View Demo</a>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat-box">
+                <div class="stat-value">100</div>
+                <div class="stat-label">Total Properties</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value">100</div>
+                <div class="stat-label">Community Members</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value">6</div>
+                <div class="stat-label">Global Cities</div>
+            </div>
+        </div>
+
+        <div class="features-section">
+            <div class="features-title">Key Features</div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🗺️</div>
+                    <div class="feature-content">
+                        <h3>Global Network</h3>
+                        <p>Connect with properties and communities across major cities worldwide</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🏘️</div>
+                    <div class="feature-content">
+                        <h3>Property Listings</h3>
+                        <p>Find your perfect space with detailed property information and availability</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">👥</div>
+                    <div class="feature-content">
+                        <h3>Community Building</h3>
+                        <p>Join local and global communities, attend events, and make connections</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">💬</div>
+                    <div class="feature-content">
+                        <h3>Real-time Chat</h3>
+                        <p>Stay in touch with instant messaging, group chats, and community discussions</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">📍</div>
+                    <div class="feature-content">
+                        <h3>Interactive Map</h3>
+                        <p>Visualize the global network with an immersive 3D globe interface</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🎉</div>
+                    <div class="feature-content">
+                        <h3>Events & Meetups</h3>
+                        <p>Discover and participate in community events, workshops, and social gatherings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>RoomersAround Mobile App Mockups &copy; 2025</p>
+            <p style="margin-top: 10px;">Demo created for visualization purposes</p>
+        </div>
+    </div>
+</body>
+</html>
