@@ -105,8 +105,37 @@ The presentation covers:
 
 ---
 
+## 🗄️ Demo Data
+
+This repository includes comprehensive fake data for demos, testing, and development:
+
+### 📊 Data Overview
+- **250+ International Users** - Diverse expats, Erasmus students from 47+ nationalities
+- **500+ Properties** - Across 15 Italian cities (Rome, Milan, Florence, Bologna, Venice, etc.)
+- **50+ Events** - Language exchanges, cultural activities, networking events
+
+### 📁 Fake Data Files
+- `fake_data_users.json` - 250 diverse international user profiles
+- `fake_data_properties.json` - 500 rental properties across Italy
+- `fake_data_events.json` - 50 community events
+- `fake_data_inserts.sql` - Ready-to-import SQL statements
+- `generate_fake_data.py` - Python script to regenerate/customize data
+- `FAKE_DATA_README.md` - Complete guide for importing and using fake data
+
+### 🚀 Quick Import
+```bash
+# Import all fake data to your database
+psql -U your_username -d roomersaround -f fake_data_inserts.sql
+
+# Or regenerate with custom settings
+python3 generate_fake_data.py
+```
+
+See [FAKE_DATA_README.md](FAKE_DATA_README.md) for detailed import instructions and examples.
+
 ## 📄 Files Included
 
+### Presentation Materials
 - `RoomersAround_Rome_Presentation.pptx` - Professional PowerPoint presentation
 - `create_presentation.py` - Python script to generate presentation and mockups
 - `images/` - Directory containing mobile app mockups
@@ -115,6 +144,14 @@ The presentation covers:
   - `mockup_details.png` - Property details mockup
   - `mockup_profile.png` - User profile mockup
   - `mockup_booking.png` - Booking flow mockup
+
+### Demo Data
+- `fake_data_users.json` - 250 international users
+- `fake_data_properties.json` - 500 properties across Italy
+- `fake_data_events.json` - 50 community events
+- `fake_data_inserts.sql` - SQL import file
+- `generate_fake_data.py` - Data generator script
+- `FAKE_DATA_README.md` - Import guide
 
 ---
 

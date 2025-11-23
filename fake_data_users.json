@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Data Analyst",
+    "age": 20,
+    "nationality": "Vietnamese",
+    "bio": "Remote data analyst living the Italian dream",
+    "interests": [
+      "Gaming",
+      "Hiking",
+      "Technology",
+      "Startups"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-11-19"
+  },
+  {
+    "id": 2,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150",
+    "profession": "Food Blogger",
+    "age": 30,
+    "nationality": "Mexican",
+    "bio": "Food Blogger sharing Italy's treasures",
+    "interests": [
+      "Markets",
+      "Restaurants",
+      "Wine",
+      "Cooking"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-06-07"
+  },
+  {
+    "id": 3,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Art Curator",
+    "age": 23,
+    "nationality": "Austrian",
+    "bio": "Art Curator embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Sports",
+      "Travel",
+      "Cinema"
+    ],
+    "rating": 4.8,
+    "verified": false,
+    "joinedDate": "2024-12-26"
+  },
+  {
+    "id": 4,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Filmmaker",
+    "age": 33,
+    "nationality": "Malaysian",
+    "bio": "Filmmaker embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Art",
+      "Cinema",
+      "Travel"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2024-11-11"
+  },
+  {
+    "id": 5,
+    "name": "Michał Kamiński",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Filmmaker",
+    "age": 27,
+    "nationality": "Polish",
+    "bio": "Filmmaker embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Food",
+      "Sports",
+      "Travel"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-04-27"
+  },
+  {
+    "id": 6,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150",
+    "profession": "Tech Entrepreneur",
+    "age": 20,
+    "nationality": "Colombian",
+    "bio": "Tech Entrepreneur embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Travel",
+      "Food",
+      "Art"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-05-08"
+  },
+  {
+    "id": 7,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Literature Student",
+    "age": 20,
+    "nationality": "Chilean",
+    "bio": "Erasmus Literature student exploring Italy",
+    "interests": [
+      "Travel",
+      "Coffee",
+      "Language Exchange",
+      "Study Groups"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-08-09"
+  },
+  {
+    "id": 8,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150",
+    "profession": "Startup Founder",
+    "age": 32,
+    "nationality": "Vietnamese",
+    "bio": "Startup Founder embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Travel",
+      "Food",
+      "Cinema"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2024-06-12"
+  },
+  {
+    "id": 9,
+    "name": "Mei Tanaka",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Art Student",
+    "age": 25,
+    "nationality": "Japanese",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Concerts",
+      "Travel",
+      "Coffee",
+      "Language Exchange"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2025-10-26"
+  },
+  {
+    "id": 10,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "profession": "Diplomat",
+    "age": 29,
+    "nationality": "Austrian",
+    "bio": "Diplomat embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Music",
+      "Art",
+      "Food"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2025-08-28"
+  },
+  {
+    "id": 11,
+    "name": "Rohan Gupta",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Photographer",
+    "age": 32,
+    "nationality": "Indian",
+    "bio": "Photographer embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Music",
+      "Travel",
+      "Art"
+    ],
+    "rating": 4.8,
+    "verified": false,
+    "joinedDate": "2024-12-20"
+  },
+  {
+    "id": 12,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Art Student",
+    "age": 22,
+    "nationality": "Romanian",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Language Exchange",
+      "Travel",
+      "Nightlife",
+      "Cycling"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2024-08-09"
+  },
+  {
+    "id": 13,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "Artist",
+    "age": 33,
+    "nationality": "Hungarian",
+    "bio": "Artist embracing la dolce vita",
+    "interests": [
+      "Fashion",
+      "Art",
+      "Photography",
+      "Culture"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-08-30"
+  },
+  {
+    "id": 14,
+    "name": "Beatriz Ferreira",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Freelance Writer",
+    "age": 26,
+    "nationality": "Brazilian",
+    "bio": "Freelance Writer embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Music",
+      "Cinema",
+      "Food"
+    ],
+    "rating": 5.0,
+    "verified": false,
+    "joinedDate": "2025-04-25"
+  },
+  {
+    "id": 15,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Art Student",
+    "age": 21,
+    "nationality": "South African",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Nightlife",
+      "Language Exchange",
+      "Coffee"
+    ],
+    "rating": 4.9,
+    "verified": false,
+    "joinedDate": "2025-02-27"
+  },
+  {
+    "id": 16,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150",
+    "profession": "Photographer",
+    "age": 27,
+    "nationality": "Chilean",
+    "bio": "Photographer embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Cinema",
+      "Food",
+      "Travel"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-02-15"
+  },
+  {
+    "id": 17,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150",
+    "profession": "Consultant",
+    "age": 22,
+    "nationality": "Canadian",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Music",
+      "Sports",
+      "Art"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-11-04"
+  },
+  {
+    "id": 18,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Archaeologist",
+    "age": 27,
+    "nationality": "New Zealander",
+    "bio": "Archaeologist embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Music",
+      "Sports",
+      "Travel"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2025-03-20"
+  },
+  {
+    "id": 19,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "PhD Candidate",
+    "age": 23,
+    "nationality": "Indonesian",
+    "bio": "PhD Candidate embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Food",
+      "Sports",
+      "Travel"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2024-10-01"
+  },
+  {
+    "id": 20,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "profession": "Engineering Student",
+    "age": 23,
+    "nationality": "Norwegian",
+    "bio": "Erasmus Engineering student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Language Exchange",
+      "Concerts",
+      "Nightlife"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-05-01"
+  },
+  {
+    "id": 21,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Literature Student",
+    "age": 31,
+    "nationality": "Colombian",
+    "bio": "Erasmus Literature student exploring Italy",
+    "interests": [
+      "Language Exchange",
+      "Coffee",
+      "Concerts",
+      "Cycling"
+    ],
+    "rating": 4.5,
+    "verified": false,
+    "joinedDate": "2025-09-16"
+  },
+  {
+    "id": 22,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "NGO Worker",
+    "age": 35,
+    "nationality": "Irish",
+    "bio": "NGO Worker embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Food",
+      "Travel",
+      "Music"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-03-22"
+  },
+  {
+    "id": 23,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Product Manager",
+    "age": 32,
+    "nationality": "Irish",
+    "bio": "Product Manager embracing la dolce vita",
+    "interests": [
+      "Gaming",
+      "Coworking",
+      "Startups",
+      "Innovation"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2024-10-09"
+  },
+  {
+    "id": 24,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "ESL Teacher",
+    "age": 30,
+    "nationality": "Belgian",
+    "bio": "ESL Teacher embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Cinema",
+      "Travel",
+      "Art"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-08-13"
+  },
+  {
+    "id": 25,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Software Engineer",
+    "age": 23,
+    "nationality": "Egyptian",
+    "bio": "Remote software engineer living the Italian dream",
+    "interests": [
+      "Technology",
+      "Innovation",
+      "Startups",
+      "Coworking"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-05-01"
+  },
+  {
+    "id": 26,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Travel Writer",
+    "age": 32,
+    "nationality": "Taiwanese",
+    "bio": "Travel Writer embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Cinema",
+      "Food",
+      "Travel"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2025-10-31"
+  },
+  {
+    "id": 27,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Archaeologist",
+    "age": 20,
+    "nationality": "Taiwanese",
+    "bio": "Archaeologist embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Music",
+      "Travel",
+      "Art"
+    ],
+    "rating": 4.7,
+    "verified": false,
+    "joinedDate": "2025-10-22"
+  },
+  {
+    "id": 28,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Digital Marketer",
+    "age": 27,
+    "nationality": "Peruvian",
+    "bio": "Remote digital marketer living the Italian dream",
+    "interests": [
+      "Travel",
+      "Art",
+      "Sports",
+      "Music"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2025-09-25"
+  },
+  {
+    "id": 29,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Engineering Student",
+    "age": 21,
+    "nationality": "Vietnamese",
+    "bio": "Erasmus Engineering student exploring Italy",
+    "interests": [
+      "Language Exchange",
+      "Study Groups",
+      "Concerts",
+      "Cycling"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2024-12-04"
+  },
+  {
+    "id": 30,
+    "name": "William Thompson",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Travel Writer",
+    "age": 23,
+    "nationality": "Australian",
+    "bio": "Travel Writer embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Cinema",
+      "Art",
+      "Travel"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2024-07-28"
+  },
+  {
+    "id": 31,
+    "name": "Yan Liu",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150",
+    "profession": "Museum Guide",
+    "age": 22,
+    "nationality": "Chinese",
+    "bio": "Museum Guide embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Music",
+      "Food",
+      "Sports"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2025-07-06"
+  },
+  {
+    "id": 32,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Medical Student",
+    "age": 35,
+    "nationality": "Hungarian",
+    "bio": "Erasmus Medical student exploring Italy",
+    "interests": [
+      "Concerts",
+      "Coffee",
+      "Study Groups",
+      "Travel"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-05-26"
+  },
+  {
+    "id": 33,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Consultant",
+    "age": 33,
+    "nationality": "Israeli",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Travel",
+      "Food",
+      "Music"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2025-09-03"
+  },
+  {
+    "id": 34,
+    "name": "David Wilson",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "Consultant",
+    "age": 27,
+    "nationality": "American",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Music",
+      "Travel",
+      "Cinema"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2025-02-13"
+  },
+  {
+    "id": 35,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Film Student",
+    "age": 31,
+    "nationality": "Pakistani",
+    "bio": "Erasmus Film student exploring Italy",
+    "interests": [
+      "Concerts",
+      "Cycling",
+      "Study Groups",
+      "Coffee"
+    ],
+    "rating": 5.0,
+    "verified": false,
+    "joinedDate": "2024-08-31"
+  },
+  {
+    "id": 36,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Food Blogger",
+    "age": 33,
+    "nationality": "Argentine",
+    "bio": "Food Blogger sharing Italy's treasures",
+    "interests": [
+      "Markets",
+      "Restaurants",
+      "Wine",
+      "Cooking"
+    ],
+    "rating": 4.5,
+    "verified": false,
+    "joinedDate": "2024-10-13"
+  },
+  {
+    "id": 37,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Musician",
+    "age": 32,
+    "nationality": "South African",
+    "bio": "Musician embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Travel",
+      "Art",
+      "Music"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-02-18"
+  },
+  {
+    "id": 38,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "Journalist",
+    "age": 31,
+    "nationality": "Norwegian",
+    "bio": "Journalist embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Sports",
+      "Music",
+      "Travel"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-08-16"
+  },
+  {
+    "id": 39,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Design Student",
+    "age": 28,
+    "nationality": "Egyptian",
+    "bio": "Erasmus Design student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Nightlife",
+      "Concerts",
+      "Travel"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2024-09-11"
+  },
+  {
+    "id": 40,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Freelance Writer",
+    "age": 24,
+    "nationality": "Scottish",
+    "bio": "Freelance Writer embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Art",
+      "Cinema",
+      "Travel"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2025-07-24"
+  },
+  {
+    "id": 41,
+    "name": "Pedro Oliveira",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150",
+    "profession": "Artist",
+    "age": 35,
+    "nationality": "Brazilian",
+    "bio": "Artist embracing la dolce vita",
+    "interests": [
+      "Fashion",
+      "Art",
+      "Photography",
+      "Culture"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2025-09-01"
+  },
+  {
+    "id": 42,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Musician",
+    "age": 31,
+    "nationality": "Israeli",
+    "bio": "Musician embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Art",
+      "Travel",
+      "Food"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2024-06-07"
+  },
+  {
+    "id": 43,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Graphic Designer",
+    "age": 28,
+    "nationality": "Austrian",
+    "bio": "Graphic Designer embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Photography",
+      "Art",
+      "Fashion"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2024-08-08"
+  },
+  {
+    "id": 44,
+    "name": "Anna Nowak",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Film Student",
+    "age": 31,
+    "nationality": "Polish",
+    "bio": "Erasmus Film student exploring Italy",
+    "interests": [
+      "Nightlife",
+      "Study Groups",
+      "Travel",
+      "Language Exchange"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-09-17"
+  },
+  {
+    "id": 45,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "profession": "Food Blogger",
+    "age": 22,
+    "nationality": "Belgian",
+    "bio": "Food Blogger sharing Italy's treasures",
+    "interests": [
+      "Food Tours",
+      "Wine",
+      "Restaurants",
+      "Cooking"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2025-01-05"
+  },
+  {
+    "id": 46,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Literature Student",
+    "age": 25,
+    "nationality": "Canadian",
+    "bio": "Erasmus Literature student exploring Italy",
+    "interests": [
+      "Travel",
+      "Study Groups",
+      "Nightlife",
+      "Language Exchange"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-02-10"
+  },
+  {
+    "id": 47,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Art Student",
+    "age": 33,
+    "nationality": "Colombian",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Study Groups",
+      "Cycling",
+      "Language Exchange"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-05-12"
+  },
+  {
+    "id": 48,
+    "name": "Ahmet Şahin",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Literature Student",
+    "age": 21,
+    "nationality": "Turkish",
+    "bio": "Erasmus Literature student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Language Exchange",
+      "Concerts",
+      "Cycling"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2024-11-28"
+  },
+  {
+    "id": 49,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Tour Guide",
+    "age": 29,
+    "nationality": "Canadian",
+    "bio": "Tour Guide sharing Italy's treasures",
+    "interests": [
+      "Cinema",
+      "Travel",
+      "Food",
+      "Music"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2024-10-23"
+  },
+  {
+    "id": 50,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Startup Founder",
+    "age": 33,
+    "nationality": "Egyptian",
+    "bio": "Startup Founder embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Art",
+      "Music",
+      "Cinema"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2024-09-18"
+  },
+  {
+    "id": 51,
+    "name": "María López",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Archaeologist",
+    "age": 23,
+    "nationality": "Spanish",
+    "bio": "Archaeologist embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Travel",
+      "Cinema",
+      "Sports"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-02-02"
+  },
+  {
+    "id": 52,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Law Student",
+    "age": 35,
+    "nationality": "Pakistani",
+    "bio": "Erasmus Law student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Concerts",
+      "Cycling",
+      "Nightlife"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2024-07-24"
+  },
+  {
+    "id": 53,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "International Relations Student",
+    "age": 25,
+    "nationality": "Finnish",
+    "bio": "Erasmus International Relations student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Coffee",
+      "Travel",
+      "Concerts"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-01-13"
+  },
+  {
+    "id": 54,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150",
+    "profession": "Startup Founder",
+    "age": 34,
+    "nationality": "Israeli",
+    "bio": "Startup Founder embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Sports",
+      "Music",
+      "Food"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-06-17"
+  },
+  {
+    "id": 55,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Financial Analyst",
+    "age": 34,
+    "nationality": "Belgian",
+    "bio": "Financial Analyst embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Music",
+      "Cinema",
+      "Art"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-11-14"
+  },
+  {
+    "id": 56,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "International Relations Student",
+    "age": 29,
+    "nationality": "Peruvian",
+    "bio": "Erasmus International Relations student exploring Italy",
+    "interests": [
+      "Travel",
+      "Coffee",
+      "Cycling",
+      "Study Groups"
+    ],
+    "rating": 4.7,
+    "verified": false,
+    "joinedDate": "2024-12-16"
+  },
+  {
+    "id": 57,
+    "name": "Christopher Anderson",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Product Manager",
+    "age": 21,
+    "nationality": "American",
+    "bio": "Product Manager embracing la dolce vita",
+    "interests": [
+      "Hiking",
+      "Innovation",
+      "Technology",
+      "Gaming"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2024-08-29"
+  },
+  {
+    "id": 58,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Photographer",
+    "age": 24,
+    "nationality": "Norwegian",
+    "bio": "Photographer embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Art",
+      "Travel",
+      "Music"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-10-20"
+  },
+  {
+    "id": 59,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Fashion Designer",
+    "age": 31,
+    "nationality": "Argentine",
+    "bio": "Fashion Designer embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Design",
+      "Photography",
+      "Culture"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-06-27"
+  },
+  {
+    "id": 60,
+    "name": "Zeynep Çelik",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "International Relations Student",
+    "age": 32,
+    "nationality": "Turkish",
+    "bio": "Erasmus International Relations student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Concerts",
+      "Nightlife",
+      "Coffee"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2025-03-27"
+  },
+  {
+    "id": 61,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+    "profession": "Filmmaker",
+    "age": 33,
+    "nationality": "Scottish",
+    "bio": "Filmmaker embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Music",
+      "Travel",
+      "Art"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-10-27"
+  },
+  {
+    "id": 62,
+    "name": "Priya Sharma",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Travel Writer",
+    "age": 29,
+    "nationality": "Indian",
+    "bio": "Travel Writer embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Food",
+      "Cinema",
+      "Music"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2025-05-28"
+  },
+  {
+    "id": 63,
+    "name": "Ana Rodríguez",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Diplomat",
+    "age": 28,
+    "nationality": "Spanish",
+    "bio": "Diplomat embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Cinema",
+      "Sports",
+      "Art"
+    ],
+    "rating": 4.9,
+    "verified": false,
+    "joinedDate": "2025-08-05"
+  },
+  {
+    "id": 64,
+    "name": "João Silva",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Art Curator",
+    "age": 20,
+    "nationality": "Portuguese",
+    "bio": "Art Curator embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Food",
+      "Music",
+      "Art"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-11-06"
+  },
+  {
+    "id": 65,
+    "name": "Elif Demir",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150",
+    "profession": "Content Creator",
+    "age": 31,
+    "nationality": "Turkish",
+    "bio": "Content Creator embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Music",
+      "Cinema",
+      "Art"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2025-03-01"
+  },
+  {
+    "id": 66,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Art Student",
+    "age": 24,
+    "nationality": "Canadian",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Cycling",
+      "Language Exchange",
+      "Travel"
+    ],
+    "rating": 4.8,
+    "verified": false,
+    "joinedDate": "2025-05-18"
+  },
+  {
+    "id": 67,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Economics Student",
+    "age": 22,
+    "nationality": "Mexican",
+    "bio": "Erasmus Economics student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Language Exchange",
+      "Cycling",
+      "Study Groups"
+    ],
+    "rating": 4.3,
+    "verified": false,
+    "joinedDate": "2025-06-05"
+  },
+  {
+    "id": 68,
+    "name": "Hiroshi Sato",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Architecture Student",
+    "age": 22,
+    "nationality": "Japanese",
+    "bio": "Erasmus Architecture student exploring Italy",
+    "interests": [
+      "Language Exchange",
+      "Coffee",
+      "Cycling",
+      "Concerts"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-08-20"
+  },
+  {
+    "id": 69,
+    "name": "Jessica Taylor",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Researcher",
+    "age": 22,
+    "nationality": "American",
+    "bio": "Researcher embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Sports",
+      "Cinema",
+      "Music"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-06-29"
+  },
+  {
+    "id": 70,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Archaeologist",
+    "age": 33,
+    "nationality": "Bulgarian",
+    "bio": "Archaeologist embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Food",
+      "Sports",
+      "Travel"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2025-10-01"
+  },
+  {
+    "id": 71,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+    "profession": "UX Designer",
+    "age": 24,
+    "nationality": "Scottish",
+    "bio": "UX Designer embracing la dolce vita",
+    "interests": [
+      "Design",
+      "Culture",
+      "Music",
+      "Photography"
+    ],
+    "rating": 4.3,
+    "verified": false,
+    "joinedDate": "2025-06-24"
+  },
+  {
+    "id": 72,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Film Student",
+    "age": 25,
+    "nationality": "Colombian",
+    "bio": "Erasmus Film student exploring Italy",
+    "interests": [
+      "Language Exchange",
+      "Cycling",
+      "Nightlife",
+      "Travel"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2025-04-17"
+  },
+  {
+    "id": 73,
+    "name": "William Thompson",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Consultant",
+    "age": 21,
+    "nationality": "Australian",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Sports",
+      "Music",
+      "Art"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-05-05"
+  },
+  {
+    "id": 74,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "profession": "Consultant",
+    "age": 24,
+    "nationality": "Egyptian",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Sports",
+      "Art",
+      "Travel"
+    ],
+    "rating": 5.0,
+    "verified": false,
+    "joinedDate": "2025-01-29"
+  },
+  {
+    "id": 75,
+    "name": "Ishita Verma",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Professor",
+    "age": 28,
+    "nationality": "Indian",
+    "bio": "Professor embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Food",
+      "Sports",
+      "Art"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-09-29"
+  },
+  {
+    "id": 76,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Tech Entrepreneur",
+    "age": 31,
+    "nationality": "Norwegian",
+    "bio": "Tech Entrepreneur embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Music",
+      "Food",
+      "Cinema"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2024-06-16"
+  },
+  {
+    "id": 77,
+    "name": "Jian Xu",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150",
+    "profession": "Remote Worker",
+    "age": 31,
+    "nationality": "Chinese",
+    "bio": "Remote Worker embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Cinema",
+      "Sports",
+      "Music"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-05-27"
+  },
+  {
+    "id": 78,
+    "name": "Arjun Kumar",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Journalist",
+    "age": 27,
+    "nationality": "Indian",
+    "bio": "Journalist embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Sports",
+      "Cinema",
+      "Travel"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-09-05"
+  },
+  {
+    "id": 79,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "ESL Teacher",
+    "age": 35,
+    "nationality": "Egyptian",
+    "bio": "ESL Teacher embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Art",
+      "Food",
+      "Music"
+    ],
+    "rating": 4.9,
+    "verified": false,
+    "joinedDate": "2025-08-27"
+  },
+  {
+    "id": 80,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "NGO Worker",
+    "age": 22,
+    "nationality": "Czech",
+    "bio": "NGO Worker embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Music",
+      "Art",
+      "Cinema"
+    ],
+    "rating": 4.8,
+    "verified": false,
+    "joinedDate": "2024-11-28"
+  },
+  {
+    "id": 81,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+    "profession": "Food Blogger",
+    "age": 24,
+    "nationality": "Vietnamese",
+    "bio": "Food Blogger sharing Italy's treasures",
+    "interests": [
+      "Gelato",
+      "Markets",
+      "Cooking",
+      "Restaurants"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2024-06-03"
+  },
+  {
+    "id": 82,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150",
+    "profession": "Musician",
+    "age": 30,
+    "nationality": "Taiwanese",
+    "bio": "Musician embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Cinema",
+      "Sports",
+      "Travel"
+    ],
+    "rating": 5.0,
+    "verified": false,
+    "joinedDate": "2025-06-02"
+  },
+  {
+    "id": 83,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Consultant",
+    "age": 30,
+    "nationality": "Malaysian",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Music",
+      "Cinema",
+      "Art"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-10-16"
+  },
+  {
+    "id": 84,
+    "name": "Olivia Anderson",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Musician",
+    "age": 33,
+    "nationality": "Australian",
+    "bio": "Musician embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Travel",
+      "Food",
+      "Cinema"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-04-12"
+  },
+  {
+    "id": 85,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Art Student",
+    "age": 35,
+    "nationality": "Czech",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Travel",
+      "Coffee",
+      "Concerts",
+      "Study Groups"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-03-04"
+  },
+  {
+    "id": 86,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "UX Designer",
+    "age": 35,
+    "nationality": "Danish",
+    "bio": "UX Designer embracing la dolce vita",
+    "interests": [
+      "Culture",
+      "Photography",
+      "Design",
+      "Music"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-07-06"
+  },
+  {
+    "id": 87,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Journalist",
+    "age": 23,
+    "nationality": "South African",
+    "bio": "Journalist embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Travel",
+      "Sports",
+      "Cinema"
+    ],
+    "rating": 4.7,
+    "verified": false,
+    "joinedDate": "2025-03-26"
+  },
+  {
+    "id": 88,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Filmmaker",
+    "age": 28,
+    "nationality": "Croatian",
+    "bio": "Filmmaker embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Music",
+      "Travel",
+      "Food"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-02-07"
+  },
+  {
+    "id": 89,
+    "name": "Min-jun Kim",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Social Media Manager",
+    "age": 21,
+    "nationality": "Korean",
+    "bio": "Social Media Manager embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Art",
+      "Music",
+      "Sports"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2024-08-03"
+  },
+  {
+    "id": 90,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "Artist",
+    "age": 21,
+    "nationality": "Taiwanese",
+    "bio": "Artist embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Fashion",
+      "Design",
+      "Music"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-03-04"
+  },
+  {
+    "id": 91,
+    "name": "Sarah Fischer",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Language Teacher",
+    "age": 22,
+    "nationality": "German",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Cinema",
+      "Music",
+      "Food"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2025-04-14"
+  },
+  {
+    "id": 92,
+    "name": "Carlos García",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Art Curator",
+    "age": 32,
+    "nationality": "Spanish",
+    "bio": "Art Curator embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Art",
+      "Food",
+      "Cinema"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2024-06-21"
+  },
+  {
+    "id": 93,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Architecture Student",
+    "age": 25,
+    "nationality": "Malaysian",
+    "bio": "Erasmus Architecture student exploring Italy",
+    "interests": [
+      "Language Exchange",
+      "Travel",
+      "Nightlife",
+      "Concerts"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2024-08-02"
+  },
+  {
+    "id": 94,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Art Curator",
+    "age": 32,
+    "nationality": "Belgian",
+    "bio": "Art Curator embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Art",
+      "Sports",
+      "Food"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2025-03-30"
+  },
+  {
+    "id": 95,
+    "name": "Dong-hyun Han",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Chef",
+    "age": 35,
+    "nationality": "Korean",
+    "bio": "Chef sharing Italy's treasures",
+    "interests": [
+      "Cooking",
+      "Gelato",
+      "Restaurants",
+      "Wine"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2025-06-10"
+  },
+  {
+    "id": 96,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Food Blogger",
+    "age": 31,
+    "nationality": "South African",
+    "bio": "Food Blogger sharing Italy's treasures",
+    "interests": [
+      "Markets",
+      "Food Tours",
+      "Gelato",
+      "Restaurants"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2024-08-04"
+  },
+  {
+    "id": 97,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Postdoc Fellow",
+    "age": 30,
+    "nationality": "Taiwanese",
+    "bio": "Postdoc Fellow embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Art",
+      "Food",
+      "Sports"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2024-12-24"
+  },
+  {
+    "id": 98,
+    "name": "Charlotte Roberts",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150",
+    "profession": "Architecture Student",
+    "age": 34,
+    "nationality": "Australian",
+    "bio": "Erasmus Architecture student exploring Italy",
+    "interests": [
+      "Language Exchange",
+      "Nightlife",
+      "Coffee",
+      "Cycling"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2024-06-20"
+  },
+  {
+    "id": 99,
+    "name": "James Mitchell",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Journalist",
+    "age": 25,
+    "nationality": "American",
+    "bio": "Journalist embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Cinema",
+      "Food",
+      "Sports"
+    ],
+    "rating": 4.7,
+    "verified": false,
+    "joinedDate": "2025-07-31"
+  },
+  {
+    "id": 100,
+    "name": "Olivia Anderson",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Chef",
+    "age": 30,
+    "nationality": "Australian",
+    "bio": "Chef sharing Italy's treasures",
+    "interests": [
+      "Cooking",
+      "Restaurants",
+      "Gelato",
+      "Markets"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2024-09-09"
+  },
+  {
+    "id": 101,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Graphic Designer",
+    "age": 22,
+    "nationality": "Malaysian",
+    "bio": "Graphic Designer embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Music",
+      "Fashion",
+      "Design"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-08-22"
+  },
+  {
+    "id": 102,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Artist",
+    "age": 22,
+    "nationality": "Hungarian",
+    "bio": "Artist embracing la dolce vita",
+    "interests": [
+      "Photography",
+      "Fashion",
+      "Culture",
+      "Music"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2024-09-01"
+  },
+  {
+    "id": 103,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Startup Founder",
+    "age": 22,
+    "nationality": "Vietnamese",
+    "bio": "Startup Founder embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Food",
+      "Music",
+      "Travel"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2024-07-21"
+  },
+  {
+    "id": 104,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Financial Analyst",
+    "age": 25,
+    "nationality": "Israeli",
+    "bio": "Financial Analyst embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Travel",
+      "Music",
+      "Food"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2024-11-29"
+  },
+  {
+    "id": 105,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Musician",
+    "age": 30,
+    "nationality": "Mexican",
+    "bio": "Musician embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Food",
+      "Cinema",
+      "Art"
+    ],
+    "rating": 4.7,
+    "verified": false,
+    "joinedDate": "2025-08-05"
+  },
+  {
+    "id": 106,
+    "name": "Charlotte Roberts",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Chef",
+    "age": 26,
+    "nationality": "Australian",
+    "bio": "Chef sharing Italy's treasures",
+    "interests": [
+      "Gelato",
+      "Cooking",
+      "Restaurants",
+      "Markets"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2025-04-22"
+  },
+  {
+    "id": 107,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Freelance Writer",
+    "age": 30,
+    "nationality": "New Zealander",
+    "bio": "Freelance Writer embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Travel",
+      "Food",
+      "Music"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2025-07-19"
+  },
+  {
+    "id": 108,
+    "name": "Jack Wilson",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Au Pair",
+    "age": 23,
+    "nationality": "Australian",
+    "bio": "Au Pair embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Food",
+      "Cinema",
+      "Travel"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2024-06-16"
+  },
+  {
+    "id": 109,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Remote Worker",
+    "age": 29,
+    "nationality": "South African",
+    "bio": "Remote Worker embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Travel",
+      "Food",
+      "Art"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-08-28"
+  },
+  {
+    "id": 110,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Musician",
+    "age": 22,
+    "nationality": "Israeli",
+    "bio": "Musician embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Travel",
+      "Food",
+      "Art"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-08-19"
+  },
+  {
+    "id": 111,
+    "name": "Ming Zhang",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Content Creator",
+    "age": 28,
+    "nationality": "Chinese",
+    "bio": "Content Creator embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Cinema",
+      "Sports",
+      "Travel"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-07-07"
+  },
+  {
+    "id": 112,
+    "name": "Sarah Davis",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Translator",
+    "age": 23,
+    "nationality": "American",
+    "bio": "Translator embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Art",
+      "Music",
+      "Cinema"
+    ],
+    "rating": 4.9,
+    "verified": false,
+    "joinedDate": "2025-09-29"
+  },
+  {
+    "id": 113,
+    "name": "Maria Wójcik",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Photographer",
+    "age": 30,
+    "nationality": "Polish",
+    "bio": "Photographer embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Music",
+      "Art",
+      "Cinema"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2024-11-19"
+  },
+  {
+    "id": 114,
+    "name": "Elif Demir",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Freelance Writer",
+    "age": 31,
+    "nationality": "Turkish",
+    "bio": "Freelance Writer embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Travel",
+      "Sports",
+      "Cinema"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-05-10"
+  },
+  {
+    "id": 115,
+    "name": "Maximilian Meyer",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Film Student",
+    "age": 24,
+    "nationality": "German",
+    "bio": "Erasmus Film student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Nightlife",
+      "Language Exchange",
+      "Cycling"
+    ],
+    "rating": 4.5,
+    "verified": false,
+    "joinedDate": "2024-11-15"
+  },
+  {
+    "id": 116,
+    "name": "Miguel Ferreira",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "Film Student",
+    "age": 32,
+    "nationality": "Portuguese",
+    "bio": "Erasmus Film student exploring Italy",
+    "interests": [
+      "Travel",
+      "Concerts",
+      "Cycling",
+      "Nightlife"
+    ],
+    "rating": 4.7,
+    "verified": false,
+    "joinedDate": "2025-03-13"
+  },
+  {
+    "id": 117,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Architecture Student",
+    "age": 27,
+    "nationality": "Danish",
+    "bio": "Erasmus Architecture student exploring Italy",
+    "interests": [
+      "Cycling",
+      "Study Groups",
+      "Language Exchange",
+      "Concerts"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2024-07-13"
+  },
+  {
+    "id": 118,
+    "name": "Elif Demir",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Au Pair",
+    "age": 22,
+    "nationality": "Turkish",
+    "bio": "Au Pair embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Cinema",
+      "Travel",
+      "Food"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-05-11"
+  },
+  {
+    "id": 119,
+    "name": "Jun Wu",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Postdoc Fellow",
+    "age": 27,
+    "nationality": "Chinese",
+    "bio": "Postdoc Fellow embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Cinema",
+      "Music",
+      "Art"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2025-10-08"
+  },
+  {
+    "id": 120,
+    "name": "Maria Santos",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150",
+    "profession": "Social Media Manager",
+    "age": 30,
+    "nationality": "Portuguese",
+    "bio": "Social Media Manager embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Music",
+      "Art",
+      "Travel"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2024-11-01"
+  },
+  {
+    "id": 121,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Food Blogger",
+    "age": 30,
+    "nationality": "Belgian",
+    "bio": "Food Blogger sharing Italy's treasures",
+    "interests": [
+      "Restaurants",
+      "Gelato",
+      "Food Tours",
+      "Wine"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2025-10-09"
+  },
+  {
+    "id": 122,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "UX Designer",
+    "age": 34,
+    "nationality": "Romanian",
+    "bio": "UX Designer embracing la dolce vita",
+    "interests": [
+      "Fashion",
+      "Culture",
+      "Design",
+      "Art"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-06-23"
+  },
+  {
+    "id": 123,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Artist",
+    "age": 31,
+    "nationality": "Colombian",
+    "bio": "Artist embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Music",
+      "Culture",
+      "Fashion"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2025-07-12"
+  },
+  {
+    "id": 124,
+    "name": "Rafael Pereira",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Digital Marketer",
+    "age": 35,
+    "nationality": "Brazilian",
+    "bio": "Remote digital marketer living the Italian dream",
+    "interests": [
+      "Food",
+      "Travel",
+      "Music",
+      "Sports"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-01-23"
+  },
+  {
+    "id": 125,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Literature Student",
+    "age": 29,
+    "nationality": "Thai",
+    "bio": "Erasmus Literature student exploring Italy",
+    "interests": [
+      "Cycling",
+      "Study Groups",
+      "Concerts",
+      "Nightlife"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-10-02"
+  },
+  {
+    "id": 126,
+    "name": "Elif Demir",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150",
+    "profession": "Data Analyst",
+    "age": 28,
+    "nationality": "Turkish",
+    "bio": "Remote data analyst living the Italian dream",
+    "interests": [
+      "Hiking",
+      "Innovation",
+      "Gaming",
+      "Startups"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-07-20"
+  },
+  {
+    "id": 127,
+    "name": "Jakub Kowalski",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Journalist",
+    "age": 35,
+    "nationality": "Polish",
+    "bio": "Journalist embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Music",
+      "Travel",
+      "Art"
+    ],
+    "rating": 4.3,
+    "verified": false,
+    "joinedDate": "2025-04-16"
+  },
+  {
+    "id": 128,
+    "name": "Lisa Hoffmann",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "NGO Worker",
+    "age": 26,
+    "nationality": "German",
+    "bio": "NGO Worker embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Sports",
+      "Art",
+      "Cinema"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2024-08-02"
+  },
+  {
+    "id": 129,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Musician",
+    "age": 24,
+    "nationality": "Peruvian",
+    "bio": "Musician embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Travel",
+      "Art",
+      "Music"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-03-10"
+  },
+  {
+    "id": 130,
+    "name": "Xia Zhao",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "PhD Candidate",
+    "age": 35,
+    "nationality": "Chinese",
+    "bio": "PhD Candidate embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Sports",
+      "Art",
+      "Food"
+    ],
+    "rating": 4.5,
+    "verified": false,
+    "joinedDate": "2024-12-03"
+  },
+  {
+    "id": 131,
+    "name": "Miguel Ferreira",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Music Student",
+    "age": 27,
+    "nationality": "Portuguese",
+    "bio": "Erasmus Music student exploring Italy",
+    "interests": [
+      "Cycling",
+      "Travel",
+      "Concerts",
+      "Coffee"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2025-08-27"
+  },
+  {
+    "id": 132,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Filmmaker",
+    "age": 25,
+    "nationality": "Hungarian",
+    "bio": "Filmmaker embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Music",
+      "Travel",
+      "Cinema"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2024-08-16"
+  },
+  {
+    "id": 133,
+    "name": "Tae-yang Yoon",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Language Teacher",
+    "age": 30,
+    "nationality": "Korean",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Food",
+      "Sports",
+      "Music"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2024-11-08"
+  },
+  {
+    "id": 134,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Art Curator",
+    "age": 32,
+    "nationality": "Canadian",
+    "bio": "Art Curator embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Sports",
+      "Art",
+      "Food"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2024-07-05"
+  },
+  {
+    "id": 135,
+    "name": "Ahmet Şahin",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "International Relations Student",
+    "age": 32,
+    "nationality": "Turkish",
+    "bio": "Erasmus International Relations student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Cycling",
+      "Concerts",
+      "Travel"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-11-05"
+  },
+  {
+    "id": 136,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Filmmaker",
+    "age": 30,
+    "nationality": "Irish",
+    "bio": "Filmmaker embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Cinema",
+      "Art",
+      "Sports"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-10-12"
+  },
+  {
+    "id": 137,
+    "name": "Arjun Kumar",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Remote Worker",
+    "age": 30,
+    "nationality": "Indian",
+    "bio": "Remote Worker embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Cinema",
+      "Art",
+      "Music"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-10-09"
+  },
+  {
+    "id": 138,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Tech Entrepreneur",
+    "age": 28,
+    "nationality": "Singaporean",
+    "bio": "Tech Entrepreneur embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Cinema",
+      "Sports",
+      "Food"
+    ],
+    "rating": 4.9,
+    "verified": false,
+    "joinedDate": "2025-08-14"
+  },
+  {
+    "id": 139,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Art Student",
+    "age": 32,
+    "nationality": "Israeli",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Study Groups",
+      "Nightlife",
+      "Concerts"
+    ],
+    "rating": 4.7,
+    "verified": false,
+    "joinedDate": "2024-12-16"
+  },
+  {
+    "id": 140,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Photographer",
+    "age": 21,
+    "nationality": "Indonesian",
+    "bio": "Photographer embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Travel",
+      "Music",
+      "Art"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-12-16"
+  },
+  {
+    "id": 141,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150",
+    "profession": "Consultant",
+    "age": 20,
+    "nationality": "Norwegian",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Art",
+      "Cinema",
+      "Sports"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2025-03-20"
+  },
+  {
+    "id": 142,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Music Student",
+    "age": 26,
+    "nationality": "Danish",
+    "bio": "Erasmus Music student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Nightlife",
+      "Study Groups",
+      "Travel"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-02-27"
+  },
+  {
+    "id": 143,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Graphic Designer",
+    "age": 28,
+    "nationality": "Egyptian",
+    "bio": "Graphic Designer embracing la dolce vita",
+    "interests": [
+      "Design",
+      "Music",
+      "Photography",
+      "Culture"
+    ],
+    "rating": 4.8,
+    "verified": false,
+    "joinedDate": "2025-07-31"
+  },
+  {
+    "id": 144,
+    "name": "Hye-jin Lim",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Literature Student",
+    "age": 20,
+    "nationality": "Korean",
+    "bio": "Erasmus Literature student exploring Italy",
+    "interests": [
+      "Concerts",
+      "Coffee",
+      "Nightlife",
+      "Travel"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-07-25"
+  },
+  {
+    "id": 145,
+    "name": "Alexandre Blanc",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Food Blogger",
+    "age": 23,
+    "nationality": "French",
+    "bio": "Food Blogger sharing Italy's treasures",
+    "interests": [
+      "Food Tours",
+      "Gelato",
+      "Wine",
+      "Cooking"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2024-11-20"
+  },
+  {
+    "id": 146,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Tour Guide",
+    "age": 30,
+    "nationality": "Indonesian",
+    "bio": "Tour Guide sharing Italy's treasures",
+    "interests": [
+      "Cinema",
+      "Food",
+      "Music",
+      "Sports"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-11-28"
+  },
+  {
+    "id": 147,
+    "name": "Ana Santos",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "International Relations Student",
+    "age": 26,
+    "nationality": "Brazilian",
+    "bio": "Erasmus International Relations student exploring Italy",
+    "interests": [
+      "Nightlife",
+      "Coffee",
+      "Language Exchange",
+      "Study Groups"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2024-08-10"
+  },
+  {
+    "id": 148,
+    "name": "Li Wang",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Professor",
+    "age": 33,
+    "nationality": "Chinese",
+    "bio": "Professor embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Travel",
+      "Food",
+      "Music"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2024-10-25"
+  },
+  {
+    "id": 149,
+    "name": "Mehmet Yılmaz",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "International Relations Student",
+    "age": 22,
+    "nationality": "Turkish",
+    "bio": "Erasmus International Relations student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Concerts",
+      "Travel",
+      "Language Exchange"
+    ],
+    "rating": 4.3,
+    "verified": false,
+    "joinedDate": "2025-01-05"
+  },
+  {
+    "id": 150,
+    "name": "Ahmet Şahin",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "ESL Teacher",
+    "age": 31,
+    "nationality": "Turkish",
+    "bio": "ESL Teacher embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Sports",
+      "Food",
+      "Art"
+    ],
+    "rating": 4.5,
+    "verified": false,
+    "joinedDate": "2024-11-25"
+  },
+  {
+    "id": 151,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Museum Guide",
+    "age": 33,
+    "nationality": "South African",
+    "bio": "Museum Guide embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Sports",
+      "Travel",
+      "Music"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2025-06-15"
+  },
+  {
+    "id": 152,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Data Analyst",
+    "age": 35,
+    "nationality": "South African",
+    "bio": "Remote data analyst living the Italian dream",
+    "interests": [
+      "Gaming",
+      "Startups",
+      "Hiking",
+      "Technology"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-12-13"
+  },
+  {
+    "id": 153,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "Tech Entrepreneur",
+    "age": 31,
+    "nationality": "Malaysian",
+    "bio": "Tech Entrepreneur embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Art",
+      "Music",
+      "Travel"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-10-31"
+  },
+  {
+    "id": 154,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Archaeologist",
+    "age": 20,
+    "nationality": "South African",
+    "bio": "Archaeologist embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Travel",
+      "Sports",
+      "Food"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2025-06-22"
+  },
+  {
+    "id": 155,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Travel Writer",
+    "age": 29,
+    "nationality": "Croatian",
+    "bio": "Travel Writer embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Sports",
+      "Music",
+      "Travel"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-09-26"
+  },
+  {
+    "id": 156,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "profession": "Professor",
+    "age": 31,
+    "nationality": "Peruvian",
+    "bio": "Professor embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Art",
+      "Travel",
+      "Cinema"
+    ],
+    "rating": 4.9,
+    "verified": false,
+    "joinedDate": "2025-10-18"
+  },
+  {
+    "id": 157,
+    "name": "Takeshi Yamamoto",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "International Relations Student",
+    "age": 34,
+    "nationality": "Japanese",
+    "bio": "Erasmus International Relations student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Nightlife",
+      "Language Exchange",
+      "Cycling"
+    ],
+    "rating": 4.7,
+    "verified": false,
+    "joinedDate": "2025-01-02"
+  },
+  {
+    "id": 158,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Consultant",
+    "age": 20,
+    "nationality": "Filipino",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Cinema",
+      "Art",
+      "Travel"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2025-03-21"
+  },
+  {
+    "id": 159,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Photographer",
+    "age": 31,
+    "nationality": "Singaporean",
+    "bio": "Photographer embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Art",
+      "Music",
+      "Cinema"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-06-27"
+  },
+  {
+    "id": 160,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "ESL Teacher",
+    "age": 21,
+    "nationality": "Colombian",
+    "bio": "ESL Teacher embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Sports",
+      "Food",
+      "Art"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2025-01-11"
+  },
+  {
+    "id": 161,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Archaeologist",
+    "age": 34,
+    "nationality": "Israeli",
+    "bio": "Archaeologist embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Sports",
+      "Travel",
+      "Art"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-06-07"
+  },
+  {
+    "id": 162,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Au Pair",
+    "age": 27,
+    "nationality": "Indonesian",
+    "bio": "Au Pair embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Food",
+      "Art",
+      "Sports"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2024-12-08"
+  },
+  {
+    "id": 163,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Chef",
+    "age": 21,
+    "nationality": "South African",
+    "bio": "Chef sharing Italy's treasures",
+    "interests": [
+      "Restaurants",
+      "Wine",
+      "Food Tours",
+      "Gelato"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2024-06-06"
+  },
+  {
+    "id": 164,
+    "name": "William Thompson",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Tour Guide",
+    "age": 20,
+    "nationality": "Australian",
+    "bio": "Tour Guide sharing Italy's treasures",
+    "interests": [
+      "Travel",
+      "Art",
+      "Music",
+      "Food"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-06-06"
+  },
+  {
+    "id": 165,
+    "name": "João Silva",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Illustrator",
+    "age": 31,
+    "nationality": "Portuguese",
+    "bio": "Illustrator embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Cinema",
+      "Art",
+      "Sports"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-07-03"
+  },
+  {
+    "id": 166,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Digital Marketer",
+    "age": 23,
+    "nationality": "Vietnamese",
+    "bio": "Remote digital marketer living the Italian dream",
+    "interests": [
+      "Art",
+      "Food",
+      "Music",
+      "Cinema"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-12-27"
+  },
+  {
+    "id": 167,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Au Pair",
+    "age": 26,
+    "nationality": "Norwegian",
+    "bio": "Au Pair embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Sports",
+      "Cinema",
+      "Travel"
+    ],
+    "rating": 4.8,
+    "verified": false,
+    "joinedDate": "2025-05-29"
+  },
+  {
+    "id": 168,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Film Student",
+    "age": 35,
+    "nationality": "Indonesian",
+    "bio": "Erasmus Film student exploring Italy",
+    "interests": [
+      "Language Exchange",
+      "Travel",
+      "Nightlife",
+      "Concerts"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2024-10-23"
+  },
+  {
+    "id": 169,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Art Student",
+    "age": 22,
+    "nationality": "Austrian",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Travel",
+      "Cycling",
+      "Concerts",
+      "Coffee"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-05-21"
+  },
+  {
+    "id": 170,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "Design Student",
+    "age": 29,
+    "nationality": "Colombian",
+    "bio": "Erasmus Design student exploring Italy",
+    "interests": [
+      "Travel",
+      "Cycling",
+      "Nightlife",
+      "Language Exchange"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-03-30"
+  },
+  {
+    "id": 171,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Tech Entrepreneur",
+    "age": 26,
+    "nationality": "Croatian",
+    "bio": "Tech Entrepreneur embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Sports",
+      "Music",
+      "Art"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2024-09-13"
+  },
+  {
+    "id": 172,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Au Pair",
+    "age": 30,
+    "nationality": "Peruvian",
+    "bio": "Au Pair embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Music",
+      "Sports",
+      "Cinema"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-10-23"
+  },
+  {
+    "id": 173,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "profession": "Consultant",
+    "age": 25,
+    "nationality": "Filipino",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Music",
+      "Travel",
+      "Sports"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2025-11-15"
+  },
+  {
+    "id": 174,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150",
+    "profession": "Art Curator",
+    "age": 27,
+    "nationality": "Bulgarian",
+    "bio": "Art Curator embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Travel",
+      "Cinema",
+      "Food"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-08-02"
+  },
+  {
+    "id": 175,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Product Manager",
+    "age": 27,
+    "nationality": "Croatian",
+    "bio": "Product Manager embracing la dolce vita",
+    "interests": [
+      "Gaming",
+      "Startups",
+      "Hiking",
+      "Technology"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2024-10-22"
+  },
+  {
+    "id": 176,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Professor",
+    "age": 27,
+    "nationality": "Belgian",
+    "bio": "Professor embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Food",
+      "Sports",
+      "Travel"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2025-07-31"
+  },
+  {
+    "id": 177,
+    "name": "Soo-jin Jung",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+    "profession": "Filmmaker",
+    "age": 23,
+    "nationality": "Korean",
+    "bio": "Filmmaker embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Food",
+      "Travel",
+      "Art"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-07-16"
+  },
+  {
+    "id": 178,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Archaeologist",
+    "age": 22,
+    "nationality": "Malaysian",
+    "bio": "Archaeologist embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Travel",
+      "Food",
+      "Sports"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2025-10-31"
+  },
+  {
+    "id": 179,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Literature Student",
+    "age": 35,
+    "nationality": "Singaporean",
+    "bio": "Erasmus Literature student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Concerts",
+      "Nightlife",
+      "Travel"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2024-11-02"
+  },
+  {
+    "id": 180,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Literature Student",
+    "age": 23,
+    "nationality": "Filipino",
+    "bio": "Erasmus Literature student exploring Italy",
+    "interests": [
+      "Travel",
+      "Nightlife",
+      "Cycling",
+      "Coffee"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2024-09-26"
+  },
+  {
+    "id": 181,
+    "name": "Ishita Verma",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Chef",
+    "age": 34,
+    "nationality": "Indian",
+    "bio": "Chef sharing Italy's treasures",
+    "interests": [
+      "Markets",
+      "Food Tours",
+      "Restaurants",
+      "Wine"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2025-03-16"
+  },
+  {
+    "id": 182,
+    "name": "Priya Sharma",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Language Teacher",
+    "age": 26,
+    "nationality": "Indian",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Travel",
+      "Sports",
+      "Food"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2025-05-25"
+  },
+  {
+    "id": 183,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Diplomat",
+    "age": 32,
+    "nationality": "South African",
+    "bio": "Diplomat embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Art",
+      "Cinema",
+      "Food"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2024-08-25"
+  },
+  {
+    "id": 184,
+    "name": "Elif Demir",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Diplomat",
+    "age": 35,
+    "nationality": "Turkish",
+    "bio": "Diplomat embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Food",
+      "Cinema",
+      "Sports"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2025-02-14"
+  },
+  {
+    "id": 185,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Remote Worker",
+    "age": 30,
+    "nationality": "Peruvian",
+    "bio": "Remote Worker embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Cinema",
+      "Music",
+      "Sports"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2024-06-27"
+  },
+  {
+    "id": 186,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Photographer",
+    "age": 29,
+    "nationality": "Bulgarian",
+    "bio": "Photographer embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Music",
+      "Cinema",
+      "Food"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2025-08-02"
+  },
+  {
+    "id": 187,
+    "name": "Gabriel Souza",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "profession": "International Relations Student",
+    "age": 29,
+    "nationality": "Brazilian",
+    "bio": "Erasmus International Relations student exploring Italy",
+    "interests": [
+      "Language Exchange",
+      "Study Groups",
+      "Cycling",
+      "Concerts"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-05-11"
+  },
+  {
+    "id": 188,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Design Student",
+    "age": 25,
+    "nationality": "Thai",
+    "bio": "Erasmus Design student exploring Italy",
+    "interests": [
+      "Concerts",
+      "Coffee",
+      "Study Groups",
+      "Language Exchange"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2025-01-18"
+  },
+  {
+    "id": 189,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Digital Marketer",
+    "age": 31,
+    "nationality": "New Zealander",
+    "bio": "Remote digital marketer living the Italian dream",
+    "interests": [
+      "Art",
+      "Music",
+      "Food",
+      "Travel"
+    ],
+    "rating": 4.8,
+    "verified": false,
+    "joinedDate": "2025-02-26"
+  },
+  {
+    "id": 190,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "Tech Entrepreneur",
+    "age": 35,
+    "nationality": "Danish",
+    "bio": "Tech Entrepreneur embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Cinema",
+      "Music",
+      "Art"
+    ],
+    "rating": 4.7,
+    "verified": false,
+    "joinedDate": "2024-11-04"
+  },
+  {
+    "id": 191,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Graphic Designer",
+    "age": 25,
+    "nationality": "Thai",
+    "bio": "Graphic Designer embracing la dolce vita",
+    "interests": [
+      "Photography",
+      "Design",
+      "Culture",
+      "Art"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-07-06"
+  },
+  {
+    "id": 192,
+    "name": "Olivia Anderson",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Film Student",
+    "age": 22,
+    "nationality": "Australian",
+    "bio": "Erasmus Film student exploring Italy",
+    "interests": [
+      "Nightlife",
+      "Cycling",
+      "Coffee",
+      "Language Exchange"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2025-03-12"
+  },
+  {
+    "id": 193,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Music Student",
+    "age": 35,
+    "nationality": "Bangladeshi",
+    "bio": "Erasmus Music student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Nightlife",
+      "Language Exchange",
+      "Travel"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2024-10-13"
+  },
+  {
+    "id": 194,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Professor",
+    "age": 31,
+    "nationality": "Canadian",
+    "bio": "Professor embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Art",
+      "Music",
+      "Travel"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2025-05-23"
+  },
+  {
+    "id": 195,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "profession": "Consultant",
+    "age": 28,
+    "nationality": "Thai",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Music",
+      "Art",
+      "Food"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-08-07"
+  },
+  {
+    "id": 196,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Illustrator",
+    "age": 20,
+    "nationality": "Scottish",
+    "bio": "Illustrator embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Music",
+      "Cinema",
+      "Travel"
+    ],
+    "rating": 4.8,
+    "verified": false,
+    "joinedDate": "2024-08-14"
+  },
+  {
+    "id": 197,
+    "name": "Mei Lin",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Language Teacher",
+    "age": 29,
+    "nationality": "Chinese",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Music",
+      "Travel",
+      "Art"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-08-11"
+  },
+  {
+    "id": 198,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Software Engineer",
+    "age": 32,
+    "nationality": "Peruvian",
+    "bio": "Remote software engineer living the Italian dream",
+    "interests": [
+      "Gaming",
+      "Technology",
+      "Startups",
+      "Coworking"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-11-01"
+  },
+  {
+    "id": 199,
+    "name": "Raj Patel",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Digital Marketer",
+    "age": 20,
+    "nationality": "Indian",
+    "bio": "Remote digital marketer living the Italian dream",
+    "interests": [
+      "Travel",
+      "Music",
+      "Food",
+      "Sports"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2025-04-04"
+  },
+  {
+    "id": 200,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Archaeologist",
+    "age": 29,
+    "nationality": "Indonesian",
+    "bio": "Archaeologist embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Cinema",
+      "Food",
+      "Travel"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2024-08-17"
+  },
+  {
+    "id": 201,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Musician",
+    "age": 27,
+    "nationality": "Indonesian",
+    "bio": "Musician embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Art",
+      "Travel",
+      "Cinema"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2024-08-20"
+  },
+  {
+    "id": 202,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Design Student",
+    "age": 33,
+    "nationality": "Mexican",
+    "bio": "Erasmus Design student exploring Italy",
+    "interests": [
+      "Concerts",
+      "Cycling",
+      "Nightlife",
+      "Travel"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-06-01"
+  },
+  {
+    "id": 203,
+    "name": "Camille Petit",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Law Student",
+    "age": 31,
+    "nationality": "French",
+    "bio": "Erasmus Law student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Coffee",
+      "Concerts",
+      "Travel"
+    ],
+    "rating": 4.9,
+    "verified": false,
+    "joinedDate": "2025-05-21"
+  },
+  {
+    "id": 204,
+    "name": "Elif Demir",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Language Teacher",
+    "age": 23,
+    "nationality": "Turkish",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Cinema",
+      "Sports",
+      "Travel"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-03-17"
+  },
+  {
+    "id": 205,
+    "name": "James Mitchell",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Travel Writer",
+    "age": 26,
+    "nationality": "American",
+    "bio": "Travel Writer embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Sports",
+      "Food",
+      "Art"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-05-24"
+  },
+  {
+    "id": 206,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150",
+    "profession": "Language Teacher",
+    "age": 29,
+    "nationality": "New Zealander",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Travel",
+      "Food",
+      "Sports"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-11-30"
+  },
+  {
+    "id": 207,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Travel Writer",
+    "age": 25,
+    "nationality": "Taiwanese",
+    "bio": "Travel Writer embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Sports",
+      "Art",
+      "Food"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2025-03-27"
+  },
+  {
+    "id": 208,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150",
+    "profession": "Financial Analyst",
+    "age": 32,
+    "nationality": "Bangladeshi",
+    "bio": "Financial Analyst embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Food",
+      "Sports",
+      "Travel"
+    ],
+    "rating": 4.9,
+    "verified": false,
+    "joinedDate": "2025-02-20"
+  },
+  {
+    "id": 209,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Remote Worker",
+    "age": 21,
+    "nationality": "Peruvian",
+    "bio": "Remote Worker embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Food",
+      "Cinema",
+      "Music"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-10-09"
+  },
+  {
+    "id": 210,
+    "name": "Sophie Jansen",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Translator",
+    "age": 31,
+    "nationality": "Dutch",
+    "bio": "Translator embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Travel",
+      "Art",
+      "Cinema"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2024-11-18"
+  },
+  {
+    "id": 211,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Chef",
+    "age": 22,
+    "nationality": "Vietnamese",
+    "bio": "Chef sharing Italy's treasures",
+    "interests": [
+      "Gelato",
+      "Cooking",
+      "Wine",
+      "Restaurants"
+    ],
+    "rating": 4.8,
+    "verified": false,
+    "joinedDate": "2024-06-27"
+  },
+  {
+    "id": 212,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Fashion Designer",
+    "age": 28,
+    "nationality": "New Zealander",
+    "bio": "Fashion Designer embracing la dolce vita",
+    "interests": [
+      "Fashion",
+      "Culture",
+      "Design",
+      "Music"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2025-03-25"
+  },
+  {
+    "id": 213,
+    "name": "Wei Chen",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Product Manager",
+    "age": 23,
+    "nationality": "Chinese",
+    "bio": "Product Manager embracing la dolce vita",
+    "interests": [
+      "Innovation",
+      "Hiking",
+      "Gaming",
+      "Technology"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2025-01-09"
+  },
+  {
+    "id": 214,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Art Student",
+    "age": 24,
+    "nationality": "Peruvian",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Concerts",
+      "Travel",
+      "Cycling",
+      "Study Groups"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2024-09-12"
+  },
+  {
+    "id": 215,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Language Teacher",
+    "age": 27,
+    "nationality": "South African",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Travel",
+      "Art",
+      "Sports"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2024-12-25"
+  },
+  {
+    "id": 216,
+    "name": "Christopher Anderson",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Digital Marketer",
+    "age": 28,
+    "nationality": "American",
+    "bio": "Remote digital marketer living the Italian dream",
+    "interests": [
+      "Cinema",
+      "Art",
+      "Sports",
+      "Travel"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-08-05"
+  },
+  {
+    "id": 217,
+    "name": "Paul Schulz",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Illustrator",
+    "age": 25,
+    "nationality": "German",
+    "bio": "Illustrator embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Art",
+      "Travel",
+      "Cinema"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2025-06-12"
+  },
+  {
+    "id": 218,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "profession": "Researcher",
+    "age": 20,
+    "nationality": "Danish",
+    "bio": "Researcher embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Travel",
+      "Music",
+      "Sports"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2025-10-30"
+  },
+  {
+    "id": 219,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Chef",
+    "age": 22,
+    "nationality": "Argentine",
+    "bio": "Chef sharing Italy's treasures",
+    "interests": [
+      "Markets",
+      "Gelato",
+      "Cooking",
+      "Food Tours"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-04-07"
+  },
+  {
+    "id": 220,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150",
+    "profession": "Travel Writer",
+    "age": 20,
+    "nationality": "Danish",
+    "bio": "Travel Writer embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Music",
+      "Art",
+      "Sports"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2024-11-22"
+  },
+  {
+    "id": 221,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Photographer",
+    "age": 35,
+    "nationality": "Israeli",
+    "bio": "Photographer embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Cinema",
+      "Music",
+      "Travel"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2024-11-22"
+  },
+  {
+    "id": 222,
+    "name": "Emma van den Berg",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Tech Entrepreneur",
+    "age": 34,
+    "nationality": "Dutch",
+    "bio": "Tech Entrepreneur embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Art",
+      "Cinema",
+      "Music"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-06-21"
+  },
+  {
+    "id": 223,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Software Engineer",
+    "age": 20,
+    "nationality": "Peruvian",
+    "bio": "Remote software engineer living the Italian dream",
+    "interests": [
+      "Coworking",
+      "Gaming",
+      "Hiking",
+      "Innovation"
+    ],
+    "rating": 4.5,
+    "verified": false,
+    "joinedDate": "2025-07-28"
+  },
+  {
+    "id": 224,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Music Student",
+    "age": 22,
+    "nationality": "Indonesian",
+    "bio": "Erasmus Music student exploring Italy",
+    "interests": [
+      "Cycling",
+      "Coffee",
+      "Concerts",
+      "Study Groups"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-07-17"
+  },
+  {
+    "id": 225,
+    "name": "Andreas Dimitriou",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150",
+    "profession": "Language Teacher",
+    "age": 34,
+    "nationality": "Greek",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Cinema",
+      "Travel",
+      "Sports",
+      "Art"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2024-10-29"
+  },
+  {
+    "id": 226,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "profession": "Business Student",
+    "age": 20,
+    "nationality": "Malaysian",
+    "bio": "Erasmus Business student exploring Italy",
+    "interests": [
+      "Language Exchange",
+      "Concerts",
+      "Travel",
+      "Study Groups"
+    ],
+    "rating": 4.9,
+    "verified": false,
+    "joinedDate": "2024-11-01"
+  },
+  {
+    "id": 227,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+    "profession": "Language Teacher",
+    "age": 25,
+    "nationality": "New Zealander",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Sports",
+      "Cinema",
+      "Music"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2025-08-24"
+  },
+  {
+    "id": 228,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "ESL Teacher",
+    "age": 30,
+    "nationality": "Chilean",
+    "bio": "ESL Teacher embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Music",
+      "Cinema",
+      "Art"
+    ],
+    "rating": 4.8,
+    "verified": false,
+    "joinedDate": "2025-02-25"
+  },
+  {
+    "id": 229,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "International Relations Student",
+    "age": 34,
+    "nationality": "Israeli",
+    "bio": "Erasmus International Relations student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Cycling",
+      "Language Exchange",
+      "Concerts"
+    ],
+    "rating": 4.4,
+    "verified": false,
+    "joinedDate": "2024-08-27"
+  },
+  {
+    "id": 230,
+    "name": "Maria Santos",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Art Student",
+    "age": 25,
+    "nationality": "Portuguese",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Cycling",
+      "Travel",
+      "Study Groups"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2024-09-08"
+  },
+  {
+    "id": 231,
+    "name": "Kavya Reddy",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "Economics Student",
+    "age": 28,
+    "nationality": "Indian",
+    "bio": "Erasmus Economics student exploring Italy",
+    "interests": [
+      "Concerts",
+      "Nightlife",
+      "Language Exchange",
+      "Study Groups"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2025-05-01"
+  },
+  {
+    "id": 232,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+    "profession": "Film Student",
+    "age": 26,
+    "nationality": "Indonesian",
+    "bio": "Erasmus Film student exploring Italy",
+    "interests": [
+      "Nightlife",
+      "Study Groups",
+      "Travel",
+      "Language Exchange"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-04-24"
+  },
+  {
+    "id": 233,
+    "name": "Ahmet Şahin",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "International Relations Student",
+    "age": 21,
+    "nationality": "Turkish",
+    "bio": "Erasmus International Relations student exploring Italy",
+    "interests": [
+      "Cycling",
+      "Study Groups",
+      "Concerts",
+      "Travel"
+    ],
+    "rating": 5.0,
+    "verified": true,
+    "joinedDate": "2024-10-03"
+  },
+  {
+    "id": 234,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Literature Student",
+    "age": 31,
+    "nationality": "Malaysian",
+    "bio": "Erasmus Literature student exploring Italy",
+    "interests": [
+      "Nightlife",
+      "Study Groups",
+      "Cycling",
+      "Coffee"
+    ],
+    "rating": 4.8,
+    "verified": true,
+    "joinedDate": "2024-10-09"
+  },
+  {
+    "id": 235,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+    "profession": "Business Student",
+    "age": 34,
+    "nationality": "Romanian",
+    "bio": "Erasmus Business student exploring Italy",
+    "interests": [
+      "Travel",
+      "Cycling",
+      "Language Exchange",
+      "Nightlife"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-11-10"
+  },
+  {
+    "id": 236,
+    "name": "Emily Johnson",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+    "profession": "Consultant",
+    "age": 21,
+    "nationality": "American",
+    "bio": "Consultant embracing la dolce vita",
+    "interests": [
+      "Travel",
+      "Sports",
+      "Cinema",
+      "Art"
+    ],
+    "rating": 4.9,
+    "verified": false,
+    "joinedDate": "2025-06-25"
+  },
+  {
+    "id": 237,
+    "name": "Mehmet Yılmaz",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Engineering Student",
+    "age": 22,
+    "nationality": "Turkish",
+    "bio": "Erasmus Engineering student exploring Italy",
+    "interests": [
+      "Coffee",
+      "Language Exchange",
+      "Concerts",
+      "Study Groups"
+    ],
+    "rating": 4.5,
+    "verified": true,
+    "joinedDate": "2025-07-12"
+  },
+  {
+    "id": 238,
+    "name": "Jordan Taylor",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Remote Worker",
+    "age": 25,
+    "nationality": "Croatian",
+    "bio": "Remote Worker embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Travel",
+      "Music",
+      "Cinema"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2025-08-09"
+  },
+  {
+    "id": 239,
+    "name": "Zeynep Çelik",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Art Student",
+    "age": 22,
+    "nationality": "Turkish",
+    "bio": "Erasmus Art student exploring Italy",
+    "interests": [
+      "Cycling",
+      "Travel",
+      "Language Exchange",
+      "Nightlife"
+    ],
+    "rating": 4.3,
+    "verified": false,
+    "joinedDate": "2025-09-28"
+  },
+  {
+    "id": 240,
+    "name": "Elena Pérez",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+    "profession": "Archaeologist",
+    "age": 22,
+    "nationality": "Spanish",
+    "bio": "Archaeologist embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Art",
+      "Travel",
+      "Cinema"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2024-10-30"
+  },
+  {
+    "id": 241,
+    "name": "Sophie Jansen",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Economics Student",
+    "age": 35,
+    "nationality": "Dutch",
+    "bio": "Erasmus Economics student exploring Italy",
+    "interests": [
+      "Concerts",
+      "Study Groups",
+      "Nightlife",
+      "Cycling"
+    ],
+    "rating": 4.5,
+    "verified": false,
+    "joinedDate": "2025-11-15"
+  },
+  {
+    "id": 242,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    "profession": "Engineering Student",
+    "age": 34,
+    "nationality": "Peruvian",
+    "bio": "Erasmus Engineering student exploring Italy",
+    "interests": [
+      "Study Groups",
+      "Nightlife",
+      "Concerts",
+      "Coffee"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-11-26"
+  },
+  {
+    "id": 243,
+    "name": "Riley Anderson",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+    "profession": "Professor",
+    "age": 29,
+    "nationality": "Croatian",
+    "bio": "Professor embracing la dolce vita",
+    "interests": [
+      "Sports",
+      "Food",
+      "Music",
+      "Art"
+    ],
+    "rating": 4.3,
+    "verified": true,
+    "joinedDate": "2025-09-28"
+  },
+  {
+    "id": 244,
+    "name": "Quinn Martinez",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Translator",
+    "age": 29,
+    "nationality": "South African",
+    "bio": "Translator embracing la dolce vita",
+    "interests": [
+      "Music",
+      "Art",
+      "Sports",
+      "Food"
+    ],
+    "rating": 4.9,
+    "verified": true,
+    "joinedDate": "2025-11-12"
+  },
+  {
+    "id": 245,
+    "name": "Maria Wójcik",
+    "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=150",
+    "profession": "Chef",
+    "age": 27,
+    "nationality": "Polish",
+    "bio": "Chef sharing Italy's treasures",
+    "interests": [
+      "Food Tours",
+      "Markets",
+      "Wine",
+      "Gelato"
+    ],
+    "rating": 4.6,
+    "verified": true,
+    "joinedDate": "2024-08-06"
+  },
+  {
+    "id": 246,
+    "name": "Casey Johnson",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "profession": "Engineering Student",
+    "age": 32,
+    "nationality": "Colombian",
+    "bio": "Erasmus Engineering student exploring Italy",
+    "interests": [
+      "Nightlife",
+      "Travel",
+      "Language Exchange",
+      "Coffee"
+    ],
+    "rating": 4.3,
+    "verified": false,
+    "joinedDate": "2024-11-07"
+  },
+  {
+    "id": 247,
+    "name": "Erik Andersson",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+    "profession": "Data Analyst",
+    "age": 21,
+    "nationality": "Swedish",
+    "bio": "Remote data analyst living the Italian dream",
+    "interests": [
+      "Hiking",
+      "Gaming",
+      "Innovation",
+      "Coworking"
+    ],
+    "rating": 4.4,
+    "verified": true,
+    "joinedDate": "2024-07-01"
+  },
+  {
+    "id": 248,
+    "name": "Sarah Davis",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    "profession": "Language Teacher",
+    "age": 21,
+    "nationality": "American",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Sports",
+      "Art",
+      "Travel"
+    ],
+    "rating": 4.6,
+    "verified": false,
+    "joinedDate": "2025-11-20"
+  },
+  {
+    "id": 249,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=150",
+    "profession": "Startup Founder",
+    "age": 23,
+    "nationality": "Scottish",
+    "bio": "Startup Founder embracing la dolce vita",
+    "interests": [
+      "Art",
+      "Sports",
+      "Cinema",
+      "Food"
+    ],
+    "rating": 4.7,
+    "verified": true,
+    "joinedDate": "2024-06-08"
+  },
+  {
+    "id": 250,
+    "name": "Alex Morgan",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+    "profession": "Language Teacher",
+    "age": 29,
+    "nationality": "Irish",
+    "bio": "Language Teacher embracing la dolce vita",
+    "interests": [
+      "Food",
+      "Travel",
+      "Art",
+      "Sports"
+    ],
+    "rating": 4.7,
+    "verified": false,
+    "joinedDate": "2024-09-16"
+  }
+]
